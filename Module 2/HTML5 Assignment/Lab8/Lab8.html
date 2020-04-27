@@ -1,0 +1,81 @@
+<html>
+	<head>
+		
+	</head>
+	<body>
+	<h1 align="center" style="background-color:brown">Sanjana Pal</h1>
+		<form method="post" action="function()" >
+		<table border="2px" height="100px" align="center">
+			<tr>
+			<td>Name:*</td>
+			<td><input type="characters" name="name" required="required"/></td>
+			</tr>
+			<tr>
+			<td>Password:*</td>
+			<td><input type="password" name="pswrd"  required="required"/></td>
+			</tr>
+			<tr>
+			<td>Phone Number:*</td>
+			<td><input type="number"name="phn"value="phn"required="required"/></td>
+			</tr>
+			<tr>
+			<td>Gender:*</td>
+			<td>
+				<input type="radio" name="gender" value="male" required="required">Male				
+				<input type="radio" name="gender" value="female"  required="required"/>Female			
+			</td>
+			</tr>
+			<tr>
+			<td>DateOfBirth:*</td>
+			<td><input id="date" name="date" type="date" min="2000-01-01" max="2022-12-31" value=""  required="required"/></td>
+			</tr>
+			<tr>
+			<td>Email:*</td>
+			<td><input type="email" name="email" required="required"></td>
+			</tr>
+			<tr>
+			<td>Highest Qualification:*</td>
+			<td>
+			<select id="qualification" value="Select highest Qualification" required="required">
+				<option value="B.Tech">B.Tech</option>
+				<option value="M.Tech">M.Tech</option>
+				<option value="MBA">MBA</option>
+				<option value="MCA">MCA</option>
+				<option value="MSc.">MSc.</option>
+				<option value="MA">MA</option>
+				<option value="BSc.">BSc.</option>
+			</select>
+			</td>
+			</tr>
+			<tr>
+			<td>Courses Interested in:*</td>
+			<td>
+				<input type="checkbox" name="check" value="Java" required="required">Java
+				<input type="checkbox" name="check" value="HTML5" required="required" >HTML 5
+				<input type="checkbox" name="check" value="CSS 3"  required="required">CSS 3
+				<input type="checkbox" name="check" value="Angular JS" required="required">Angular JS
+				<input type="checkbox" name="check" value="JQuery" required="required">JQuery
+			</td>
+			</tr>
+			<tr>
+			<td>Comments:(Mention External Certifications if any):</td>
+			<td >
+			<textarea rows="3" cols="45"></textarea>
+			</td>
+			</tr>
+			<tr>
+			<td>Upload Degrees/External Certificates:*</td>
+			<td>
+				<input type="file" name="fnm" Value="Browse"> <br><br>
+			</td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>
+				<input type="Submit" Value="Submit Informations" name="s-but">
+				<input type="reset" Value="Clear"></td>
+			</tr>
+		</table>
+		</form>
+	</body>
+</html>
